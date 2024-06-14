@@ -1,0 +1,67 @@
+<%-include("./partials/header") %>
+
+<div class="container d-flex align-items-center justify-content-center">
+  <div class="row">
+    <div class="col-lg-12">
+      <form
+        method="post"
+        action="/add"
+        enctype="multipart/form-data"
+        id="add-form"
+        class="container mt-3"
+      >
+        <h1>Add User</h1>
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="name"
+            name="name"
+            placeholder="Enter your name"
+            required
+          />
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email address</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            name="email"
+            placeholder="Enter email"
+            required
+          />
+        </div>
+        <div class="mb-3">
+          <label for="phone" class="form-label">Phone Number</label>
+          <input
+            type="tel"
+            class="form-control"
+            id="phone"
+            name="phone"
+            placeholder="Enter phone number"
+            required
+          />
+        </div>
+        <div class="mb-3">
+          <label for="image" class="form-label">Image</label>
+          <div class="custom-file">
+            <input
+              type="file"
+              class="custom-file-input"
+              id="image"
+              name="image"
+              accept="image/*"
+              required
+            />
+            <label class="custom-file-label" for="image">Choose file</label>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Add User</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<%-include("./partials/footer") %>
