@@ -21,7 +21,7 @@ Before running this project, ensure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your_username/user-management-system.git
+   git clone https://github.com/adityadhiman-in/crud_application_node_js.git
    ```
 
 ## Installation
@@ -29,7 +29,7 @@ Before running this project, ensure you have the following installed:
 1. Navigate to the project directory:
 
    ```bash
-   cd user-management-system
+   cd directory
    ```
 
 2 Install dependencies:
